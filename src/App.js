@@ -3,12 +3,14 @@ import React from "react";
 import "./App.css";
 import About from "./components/About";
 import Nav from "./components/Nav";
+import Dev from "./components/Dev";
 
 function App() {
 	return (
 		<div>
-      <Nav></Nav>
+			<Nav></Nav>
 			<main>
+				<Dev></Dev>
 				<About></About>
 			</main>
 		</div>
