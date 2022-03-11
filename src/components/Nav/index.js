@@ -23,7 +23,6 @@ function Nav({ pages, setPage }) {
 		<header>
 			<h2>
 				<a data-testid="link" href="/">
-					{/* <span role="img" aria-label="camera"> */}
 					Ambrose Wilkinson
 					<br />
 					MERN Fullstack Web Developer

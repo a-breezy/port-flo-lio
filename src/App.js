@@ -4,23 +4,23 @@ import "./App.css";
 import About from "./components/About";
 import Nav from "./components/Nav";
 import Dev from "./components/Dev";
-import Contact from "./components/Contact";
+// import Contact from "./components/Contact";
 
 function App() {
 	const pages = [
-		// { name:"Contact", comp: <Contact />}
 		{ name: "About", comp: <About /> },
 		{ name: "Dev", comp: <Dev /> },
 		// { name: "Photography", comp: <Photography />}
 		// { name: "Blog", comp: <Blog />}
+		// { name:"Contact", comp: <Contact />}
 	];
+
 	const [page, setPage] = useState(pages[0].comp);
+
 	return (
 		<div>
 			<Nav pages={pages} setPage={setPage}></Nav>
 			<main>
-				{/* <Dev></Dev>
-				<About></About> */}
 				{page}
 				<button
 					onClick={() => {
