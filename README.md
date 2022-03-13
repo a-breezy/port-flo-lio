@@ -5,7 +5,7 @@
 A react portfolio showcasing my web development work over the past few months
 
 [GitHub Repo](https://github.com/a-breezy/port-flo-lio)
-[Deployed App]()
+[Deployed App](https://a-breezy.github.io/port-flo-lio/)
 
 ## Table of Contents
 
@@ -19,13 +19,13 @@ A react portfolio showcasing my web development work over the past few months
 
 ## Installation Instructions
 
-No installation required. But you can view the portfolio itself deployed [here.]()
+No installation required. But you can view the portfolio itself deployed [here.](https://a-breezy.github.io/port-flo-lio/)
 ---
 ## Usage
 
-![Usage 1](./public/img/sts1.png "Before Budgeting")*Before Budgeting*
+![Usage 1](./images/homepage.png "Homepage/About")*Homepage/About*
 
-![Usage 2](./public/img/sts1.png "After Budgeting")*After Budgeting*
+![Usage 2](./images/devPortfolio.png "Dev Portfolio")*Dev Portfolio*
 
 
 ---
