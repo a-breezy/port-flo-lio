@@ -41,7 +41,8 @@ function ContactForm() {
 			<h1 data-testid="h1tag">Contact Me</h1>
 			<form id="contact-form" onSubmit={handleSubmit}>
 				<div>
-					<label htmlFor="name">Name:</label>
+					<label htmlFor="name">Name: </label>
+					<br />
 					<input
 						type="text"
 						defaultValue={name}
@@ -50,7 +51,7 @@ function ContactForm() {
 					/>
 				</div>
 				<div>
-					<label htmlFor="email">Email address:</label>
+					<label htmlFor="email">Email address: </label><br />
 					<input
 						type="email"
 						defaultValue={email}
@@ -59,7 +60,7 @@ function ContactForm() {
 					/>
 				</div>
 				<div>
-					<label htmlFor="message">Message:</label>
+					<label htmlFor="message">Message:</label><br />
 					<textarea
 						name="message"
 						defaultValue={message}
@@ -72,7 +73,17 @@ function ContactForm() {
 						<p className="error-text">{errorMessage}</p>
 					</div>
 				)}
-				<button data-testid="submitButton" type="submit">Submit</button>
+				<button data-testid="submitButton" type="submit">
+					Submit
+				</button>
+
+				<br />
+				<p>
+					Or reach me at{" "}
+					<a href="mailto:ambrose.wilkins@gmail.com">
+						ambrose.wilkins@gmail.com
+					</a>
+				</p>
 			</form>
 		</section>
 	);
