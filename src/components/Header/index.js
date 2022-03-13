@@ -4,13 +4,13 @@ import Nav from "../Nav";
 function Header({ pages, setPage }) {
 	return (
 		<header>
-			<h2>
+			<h1>
 				<a data-testid="link" href="/">
 					Ambrose Wilkinson
 					<br />
 					MERN Fullstack Web Developer
 				</a>
-			</h2>
+			</h1>
 			<Nav pages={pages} setPage={setPage} />
 		</header>
 	);
