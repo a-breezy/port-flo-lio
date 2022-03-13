@@ -4,7 +4,14 @@ import devPhotos from "../../assets/Dev";
 import Project from "../Project";
 
 function Dev(props) {
-	const { letsEat, moodRng, saveTheSteer, friendlyThoughts, wordSquash, expertNoteTaker } = devPhotos;
+	const {
+		letsEat,
+		moodRng,
+		saveTheSteer,
+		friendlyThoughts,
+		wordSquash,
+		expertNoteTaker,
+	} = devPhotos;
 	const devlist = [
 		{
 			name: "Let's Eat",
@@ -39,7 +46,8 @@ function Dev(props) {
 				"A social media app backend using MongoDB to preform CRUD operations to manage user, user thoughts, and reactions to thoughts.",
 			alt: "Friendly Thoughts homepage",
 			ghUrl: "https://github.com/a-breezy/friendly-thoughts",
-			deployedUrl: "https://drive.google.com/file/d/16TMk1ylsomqypJ1trEfhofI053DPvML3/view",
+			deployedUrl:
+				"https://drive.google.com/file/d/16TMk1ylsomqypJ1trEfhofI053DPvML3/view",
 			photo: friendlyThoughts,
 		},
 		{
@@ -64,7 +72,7 @@ function Dev(props) {
 
 	return (
 		<section>
-			<h1>Development Experience</h1>
+			<h2>Development Experience</h2>
 			<br />
 			{devlist.map((dev, i) => (
 				<Project dev={dev} i={i} />
