@@ -20,17 +20,9 @@ import React from "react";
 
 function Nav({ pages, setPage }) {
 	return (
-		<header>
-			<h2>
-				<a data-testid="link" href="/">
-					Ambrose Wilkinson
-					<br />
-					MERN Fullstack Web Developer
-				</a>
-			</h2>
-			<nav>
-				<ul className="flex-row">
-					{/* <li className="mx-2">
+		<nav>
+			<ul className="flex-row">
+				{/* <li className="mx-2">
 						<a data-testid="about" href="#about">
 							About Me
 						</a>
@@ -38,14 +30,13 @@ function Nav({ pages, setPage }) {
 					<li>
 						<span>Contact</span>
 					</li> */}
-					{pages.map((page, i) => (
-						<li className="mx-1" key={page.name}>
-							<span onClick={() => setPage(page.comp)}>{page.name}</span>
-						</li>
-					))}
-				</ul>
-			</nav>
-		</header>
+				{pages.map((page, i) => (
+					<li className="mx-1" key={page.name}>
+						<span onClick={() => setPage(page.comp)}>{page.name}</span>
+					</li>
+				))}
+			</ul>
+		</nav>
 	);
 }
 
