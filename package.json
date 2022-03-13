@@ -2,6 +2,7 @@
   "name": "port-flow-lio",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://a-breezy.github.io/port-flo-lio",
   "dependencies": {
     "@testing-library/user-event": "^13.5.0",
     "bootstrap": "^5.1.3",

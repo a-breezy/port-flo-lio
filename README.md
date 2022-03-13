@@ -1,8 +1,8 @@
 # Port-Flo-Lio React Portfolio [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-  
 ## Description
 
+A react portfolio showcasing my web development work over the past few months
 
 [GitHub Repo](https://github.com/a-breezy/port-flo-lio)
 [Deployed App]()
@@ -19,8 +19,7 @@
 
 ## Installation Instructions
 
-
-
+No installation required. But you can view the portfolio itself deployed [here.]()
 ---
 ## Usage
 
