@@ -5,6 +5,7 @@ import Project from "../Project";
 
 function Dev(props) {
 	const {
+		kitchenSink,
 		letsEat,
 		moodRng,
 		saveTheSteer,
@@ -13,6 +14,15 @@ function Dev(props) {
 		expertNoteTaker,
 	} = devPhotos;
 	const devlist = [
+		{
+			name: "Kitchen Sink",
+			description:
+				"A web app where users can search by the ingredients that they have stocked, and query through recipes other users have created.",
+			alt: "Kitchen Sink homepage",
+			ghUrl: "https://github.com/antger78",
+			deployedUrl: "https://kitchen-sink.herokuapp.com/",
+			photo: kitchenSink,
+		},
 		{
 			name: "Let's Eat",
 			description:
