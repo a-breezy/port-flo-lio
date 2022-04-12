@@ -1,10 +1,14 @@
 import React from "react";
+import "./index.scss";
 
 function Footer() {
 	return (
-		<footer>
-			<div className="container App-footer">
-				<div>
+		<footer className="App-footer">
+			<div className="container">
+				<section className="copy-right flex-1">
+					<p className="">Ambrose.Wilkinson &copy;{new Date().getFullYear()}</p>
+				</section>
+				<section className="social-media flex-2">
 					<a href="https://github.com/a-breezy">
 						<i className="fa-brands fa-github-square fa-2x"></i>
 					</a>
@@ -14,12 +18,7 @@ function Footer() {
 					<a href="https://twitter.com/a_breezy64">
 						<i className="fa-brands fa-twitter fa-2x"></i>
 					</a>
-				</div>
-				<div className="footer-bottom">
-					<p className="text-xs-center">
-						&copy;{new Date().getFullYear()} Ambrose.Wilkinson
-					</p>
-				</div>
+				</section>
 			</div>
 		</footer>
 	);

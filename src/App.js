@@ -1,6 +1,9 @@
 import React, { useState } from "react";
-// import logo from './logo.svg';
-import "./App.css";
+
+// style
+import "./App.scss";
+
+// components
 import Header from "./components/Header";
 import About from "./components/About";
 import Dev from "./components/Dev";
@@ -24,8 +27,8 @@ function App() {
 
 	return (
 		<div>
-			<Header pages={pages} setPage={setPage} />
-			<main>{page}</main>
+			{/* <Header pages={pages} setPage={setPage} />
+			<main>{page}</main> */}
 			<Footer />
 		</div>
 	);

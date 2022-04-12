@@ -1,0 +1,87 @@
+$primary: #E6EBF2;
+$secondary: #47C26E;
+$tertiary: #303788;
+
+
+.App-footer {
+    position: absolute;
+    padding: 0.5em 0.5em;
+    bottom: 0;
+    width: 100%;
+    background-color: grey;
+    color: $tertiary;
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-flow: row wrap;
+      }
+
+    .copy-right {
+        // color: $tertiary;
+        font: 10px  'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        
+        p {
+            margin: auto;
+            font-size: 16px;
+            letter-spacing: 0em;
+        }
+    }
+
+    .flex-1 {
+        align-self: auto;
+    }
+
+    .social-media {
+        color: $tertiary;
+        display: flex;
+        align-items: center;
+
+        a {
+            margin: auto;
+        }
+
+        .fa-github-square {
+            color: #ECF4FB;
+        }
+        
+        .fa-github-square:hover {
+            color: #AAACB0;
+        }
+        
+        .fa-linkedin {
+            color: #ECF4FB;
+        }
+        
+        .fa-linkedin:hover {
+            color: #194FB5;
+        }
+
+        .fa-twitter {
+            color: #ECF4FB;
+        }
+
+        .fa-twitter:hover {
+            color: #2686EC;
+        }
+    }
+
+    .flex-2 {
+        align-self: flex-end;
+    }
+
+    @media screen and (max-width: 980px) {
+        
+    }
+
+    @media screen and (max-width: 768) {
+
+    }
+
+    @media screen and (max-width: 575px) {
+        .container {
+            justify-content: center;
+        }
+    }
+  }
