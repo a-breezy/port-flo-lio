@@ -27,8 +27,8 @@ function App() {
 
 	return (
 		<div>
-			{/* <Header pages={pages} setPage={setPage} />
-			<main>{page}</main> */}
+			<Header pages={pages} setPage={setPage} />
+			<main>{page}</main>
 			<Footer />
 		</div>
 	);

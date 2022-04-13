@@ -1,0 +1,62 @@
+@import '../../App.scss';
+
+header {
+    width: 100%;
+    margin: 0 0;
+    height: 15vh;
+    padding: 0 0;
+}
+
+.container {
+    background: $primaryColor;
+    width: 100%;    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+    .home-link {
+        display: flex;
+        flex-direction: column;    
+    
+        h1 {
+            font-family: 'Grape Nuts';
+            margin: auto;
+            
+            a:link {
+            text-decoration: none;
+            }
+
+            a:hover {
+                text-decoration: bold;
+                color: $secondaryColor;
+                font-size: 120%;
+            }
+
+        }
+
+        h6 {
+            margin: auto;
+            font-family: 'Grape Nuts';
+            font-size: 20px;
+        }
+
+    }
+    
+    .navbar {
+        align-self: center;
+    }
+}
+
+// .App-header {
+//     background-color: var(primary);
+//     min-height: 100vh;
+//     display: flex;
+//     flex-direction: column;
+//     align-items: center;
+//     justify-content: center;
+//     font-size: calc(10px + 2vmin);
+//     color: white;
+//   }
+  
